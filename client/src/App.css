@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: blue;
+  height: 150px;
+  padding: 20px;
+  color: white;
+
+}
+
+.custom-row {
+   /* min-height: 100px; */
+   /* height: auto; */
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+#title {
+
+}
+
+#b1{
+  margin-right: 20%;
+}
+
+#b2{
+  margin-right: 20%;
+  margin-left: 0px;
+}
+
+#b3{
+  margin-right: 20%;
+  margin-left: 0px;
+}
+
+#b4{
+  margin-left: 0px;
+}
+
+.NavButton {
+    width: 30px;
+    height: 30px;
+    margin-top: -10px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+#custom-header {
+  height: 150px;
+  padding: 7%;
+  background-color: white;
+}
+
+#main-content {
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+#custom-form {
+  padding-left: 85px;
+  padding-right: 85px;
+}
+
+#custom-submit {
+  padding-top: 20px;
+}
+
+#custom-footer {
+  background-color: white;
+}
+
+footer {
+    /*background-color: #F8F8F8;*/
+    border-top: 1px solid #E7E7E7;
+    text-align:center;
+    padding:20px;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}
