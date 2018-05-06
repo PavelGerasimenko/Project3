@@ -1,5 +1,5 @@
 
-# Workout-app --> CUT? getCut? repIt? 
+# Workout-app --> CUT? getCut? repIt?
 
 ## Overview
 Simple app for quickly and easily recording info during your workouts at the gym (e.g. chest fly, 4 sets of 10 reps, 150 lbs.)
@@ -7,7 +7,7 @@ Simple app for quickly and easily recording info during your workouts at the gym
 
 ### Key Features
 ```
-- Ability to easily log an exercise after completion while at 
+- Ability to easily log an exercise after completion while at
   the gym
     - include option to edit/delete a previous entry
 - mobile responsive design
@@ -15,7 +15,7 @@ Simple app for quickly and easily recording info during your workouts at the gym
     - include filtering & sorting capabilities (e.g. sort by date, filter: bicep curls)
 - provide stats based on user previous logs/exercises
 - provide recommendations/challenges for increasing weights each time
-- use charts library for stats data/viz 
+- use charts library for stats data/viz
 - could track all sorts of stats:
     - frequency of user “checkins” (e.g. average of 3 activities per week, etc…)
     - set, rep, & workout counts for each exercise
@@ -24,50 +24,10 @@ Simple app for quickly and easily recording info during your workouts at the gym
 
 
 ## Categories
-```
-    - quads
-    - hams
-    - calves
-    - pelvis/waist
-    - abs
-    - chest
-    - upper back
-    - lower back
-    - triceps
-    - biceps
-    - shoulders
-```
 
 
 ## Exercises
-```
-    - bench press
-    - chest fly
-    - lat pulldown
-    - row
-    - shoulder press
-    - military press
-    - shoulder fly
-    - shoulder shrug
-    - pushup
-    - pull up
-    - tricep extension
-    - tricep pushdown
-    - bicep curls
-    - wrist curls
-    - situp
-    - stomach crunch
-    - torso rotation
-    - back extension
-    - deadlift
-    - good-morning
-    - lunge
-    - squat
-    - leg extension
-    - leg press
-    - leg curl
-    - calf raise
-```
+
 
 ## Folder Structure
 
@@ -141,43 +101,7 @@ project3_WorkoutApp/
 ## Database Schema
 
 ### Tables
-```
-- user
-    - user_id
-    - username
-    - email
-    - height
-    - weight
-    - age
-    - goal (weight loss, regular fitness/exercise, tone, body building)
 
-- exercise
-    - exercise_id
-    - exercise_name
-    - exercise_description
-    - category_id
-    - category_name
-
-- category
-    - category_id
-    - category_name
-    - category_description
-
-- logs
-    - log_id
-    - log_date
-    - log_exercise
-    - log_weight
-    - log_sets
-    - log_reps
-
-- challenges (stretch goal)
-    - id
-    - name
-    - type
-    - description
-    - points
-```
 
 
 For the project to build, **these files must exist with exact filenames**:
